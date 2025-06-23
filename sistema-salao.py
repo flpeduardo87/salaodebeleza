@@ -1,3 +1,7 @@
+import sqlite3
+import tkinter as tk
+from tkinter import ttk, messagebox
+
 
 def init_db():
     conn = sqlite3.connect('clientes.db')
